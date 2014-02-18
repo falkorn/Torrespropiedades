@@ -1,0 +1,185 @@
+a
+{
+	color: #DD4F24; 
+}
+body
+{
+	background: #EFEFEF;
+	color: #4C4C4C;
+	font-family: Arial;
+	font-size: 16px;
+	margin: 0;
+}
+header
+{
+	background: #F8FFEA;
+	padding: 0;
+	margin: 0;
+}
+header h1
+{
+	display: none;
+}
+
+/*Barra de Navegacion*/
+nav
+{
+	background: #474747;
+	font-size: 1em;
+}
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul li
+{
+	display: inline-block;
+	width: 24%;
+	text-align: center;
+}
+nav ul li a
+{
+	color: white;
+	display: block;
+	padding: 0.5em 1em;
+	text-decoration: none;
+}
+
+nav ul .submenu
+{
+	background: #878787;
+	display: none;
+	margin: 0px;
+	position: absolute;
+	z-index: 1;
+}
+
+nav ul li:hover>.submenu
+{
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-transition: all 0.3s ease-out;  
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+nav ul .submenu li
+{
+	display: block;
+	position: relative;
+	margin-right: 0px;
+	width: auto;
+}
+nav ul .submenu li a
+{
+	padding: 0.5em auto;
+}
+nav li:hover
+{
+	transition: all ease .3s;
+	background:#DD4F24;
+}
+/* Fin de Barra de Navegacion */
+footer
+{
+
+	min-width: 300px;
+	margin: 3em;
+}
+footer p
+{
+	text-align: center;
+}
+
+#contenido
+{
+	margin: 1em;
+	min-height: 350px;
+}
+#contenido .item
+{
+	background: white;
+	border-bottom: 3px #22BCE0 solid;
+	float: left;
+	margin: 1em 1em 0.5em 0.5em;
+	min-height: 245px;
+	position: relative;
+	width: 300px;
+}
+#contenido .item p
+{
+	color: #7a7a7a;
+	font-size: 0.9em;
+}
+#contenido .item .datos_item .tag_item
+{
+	background: #22BCE0;
+	border-radius: 0.5em;
+	color: white;
+	float: left;
+	padding: 0.2em 0.5em;
+	text-decoration: none;
+
+}
+#contenido .item .imagen_item
+{
+	float: left;
+	margin: 0 1em 0 0;
+}
+#contenido .item .imagen_item img 
+{
+	width: 96px;
+}
+#contenido .item .titulo_item
+{
+	font-size: 1em;
+	font-style: italic;
+	padding: 0.5em 0.5em 0;
+}
+#contenido .item .titulo_item a
+{
+	color: #444;
+	text-decoration: none;
+}
+#contenido .item .votacion
+{
+	background: white;
+	border-radius: 0 0 0.5em 0.5em;
+	margin: 3px 0 0 0;
+	padding: 0.5em 0;
+	position: absolute;
+	text-align: center;
+	top: 100%;
+	width: 96px;
+}
+#principal
+{
+	margin: 1em;
+}
+#principal #slider
+{
+	background: white;
+	border-bottom: 3px #22BCE0 solid;
+	margin-bottom: 2em;
+	height: 400px;
+	position: relative;
+}
+#principal #slider figure
+{
+	display: inline-block;
+	margin:1em 0  1em 0;
+	vertical-align: -50%;
+}
+#principal #slider #logo img
+{
+	width: 290px;
+}
